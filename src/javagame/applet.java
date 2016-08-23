@@ -39,7 +39,7 @@ t2.setText("Exit");
 }
 public void mouseClicked(MouseEvent e)
 {
-t3.setText("click");
+t3.setText("click1");
 }
 public void mousePressed(MouseEvent e)
 {
