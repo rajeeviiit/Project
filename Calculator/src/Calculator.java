@@ -251,6 +251,7 @@ public class Calculator extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
      display.setText(display.getText()+jButton2.getText());
+     
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void equalsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_equalsActionPerformed
@@ -407,6 +408,7 @@ public class Calculator extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Calculator().setVisible(true);
+                
             }
         });
     }
