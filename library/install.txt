@@ -1,0 +1,23 @@
+create a database in phpmyadmin , name : library
+import the file library.sql
+
+if you are use other server then change the url in index file.
+
+run localhost/library
+
+
+admin : 
+username:pcsaini
+password: pcsaini.
+
+users : 
+username: 201452019
+password:201452019
+
+
+username: 201452042
+password:201452042
+
+
+username: 201452003
+password:201452003

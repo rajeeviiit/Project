@@ -1,0 +1,23 @@
+
+..................Django................
+ 1.check version of Django
+ 
+ django-admin --version
+ 
+ 2.create project using cmd
+
+ django-admin startproject projectname
+ 
+ 3.runserver
+ 
+ python manage.py runserver
+ 
+ 
+ .................Nodejs.................
+ 1.check version of Nodejs
+ 
+ node -v
+ 
+ 2.start server (which we have created)
+ 
+ node server.js

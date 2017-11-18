@@ -1,0 +1,334 @@
+body {
+  background: #e9e9e9 !important;
+  color: #666666 !important;
+  font-family: 'RobotoDraft', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Scrollbar  */
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #2e6da4;
+    outline: 1px solid #5bc0de;
+}
+/* general css*/
+h2{
+    color: #16456c;
+    font-weight: 900;
+}
+.btn-1{
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #16456c;
+    border: 2px solid #16456c;
+}
+.btn-1:hover{
+    color: #FFFFFF;
+    background-color: #16456c;
+    border: 2px solid #16456c;
+}
+
+/* Form  */
+.login-logo{
+    margin: 70px;
+    text-align: center;
+}
+.login-logo img{
+    width: 100px;
+}
+
+.form-content{
+    background: #ffffff;
+    max-width: 420px;
+    width: 100%;
+    border-top: 5px solid #16456c;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+
+}
+.form {
+  padding: 40px;
+}
+.form h2 {
+    margin: 0 0 20px;
+    color: #16456c;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+}
+.form input {
+    outline: none;
+    display: block;
+    width: 100%;
+    height: 42px;
+    border: 1px solid #16456c;
+    margin: 0 0 20px;
+    padding: 0 20px 0 50px;
+    box-sizing: border-box;
+    font-wieght: 400;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.form input#username {
+    background: #fff url('../image/user.png') 20px no-repeat;
+    background-size: 16px 16px;
+    color: #16456c;
+}
+
+.form input#username:focus {
+    background: #fff url('../image/user.png') 20px no-repeat;
+    background-size: 14px 14px;
+    color: #16456c;
+}
+
+.form input#password {
+    background: #fff url('../image/locked.png') 20px no-repeat;
+    background-size: 16px 16px;
+    color: #16456c;
+}
+
+.form input#password:focus {
+    background: #fff url('../image/locked.png') 20px no-repeat;
+    background-size: 14px 14px;
+    color: #16456c;
+}
+.form input#email {
+    background: #fff url('../image/mail.png') 20px no-repeat;
+    background-size: 16px 16px;
+    color: #16456c;
+}
+
+.form input#email:focus {
+    background: #fff url('../image/mail.png') 20px no-repeat;
+    background-size: 14px 14px;
+    color: #16456c;
+}
+.form input:focus {
+    border: 1px solid #16456c;
+    color: #16456c;
+}
+.form button {
+    cursor: pointer;
+    background: #16456c;
+    width: 100%;
+    border: 0;
+    padding: 10px 15px;
+    color: #ffffff;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.form button:hover {
+    background: #0d293f;
+}
+.form .cta {
+    background: #f2f2f2;
+    width: 100%;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.form .cta a {
+    color: #16456c;
+    text-decoration: none;
+}
+.form p.errors{
+    text-align: center;
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        padding: 10px;
+    }
+}
+
+/* Navigation Bar */
+.navbar{
+    background-color:#95c3e9;
+}
+.navbar-toggle{
+    border-color: #16456c !important;
+}
+.navbar-toggle .icon-bar{
+    background-color: #16456c;
+}
+
+.navbar-brand{
+    background: url(../../dashboard/assets/image/logo_name.png) center / contain no-repeat;
+    width: 200px;
+}
+/*.nav>li.active{
+    background-color: #1e5f94 !important;
+}
+.nav>li.active a{
+    color: #fff;
+}*/
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: #16456c !important;
+    color: #fff !important;
+
+}
+.navbar-nav li a{
+    color: #16456c;
+    font-weight: 700;
+}
+
+/* Footer  */
+footer{
+    height: auto;
+    background-color: #95c3e9;
+}
+#mainFooter{
+    padding: 20px;
+}
+.footerWidget{
+    padding:20px;
+}
+#footerLogo{
+    height: 40px;
+}
+ul.footerMenu li a{
+    color: #000;
+    text-decoration: none;
+
+}
+/*Main Body*/
+.main-content{
+    margin: auto;
+    margin-top: 50px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height:auto;
+}
+.owl-theme .owl-controls .owl-pagination{
+    margin-top: -40px !important;
+}
+.owl-theme .owl-controls .owl-buttons{
+    visibility: hidden !important;
+    height: 0px;
+}
+.owl-theme .owl-controls .owl-page span{
+    background-color: #FFFFFF !important;
+    border: 1px solid #000;
+}
+
+/*Contact Form*/
+.contact-form{
+    margin-bottom: 20px;
+}
+.contact-form h2{
+    font-weight: 700;
+}
+.contact-form form{
+    text-align: center;
+}
+.contact-form form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.contact-form form input:focus{
+    border-color: #0d293f;
+}
+.contact-form form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.contact-form form textarea:focus{
+    border-color: #0d293f;
+}
+.contact-form form button{
+    margin: 10px 0;
+    padding:10px 20px;
+}
+
+/* about section*/
+
+
+/* Activities Section*/
+.activities{
+    margin-bottom: 20px;
+}
+.quarter{
+    color: #FFFFFF;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #16456c;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.quarter .number{
+    font-size: 30px;
+    float: right;
+}
+.quarter:hover{
+    box-shadow: 1px 5px 10px #888888;
+}
+.quarter span{
+    font-size: 18px;
+
+}
+
+
+/*  View Profile*/
+.profile .profile-info{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.profile .profile-info .profile-pic{
+    text-align: center;
+}
+.profile .profile-info .profile-pic img{
+    height: 200px !important;
+    width: 200px !important;
+}
+.profile .profile-info .information button{
+    background-color:#16456c;
+    color:white;
+    width: 100%;
+}
+.profile .history-info{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.main-heading{
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+}
+.main-heading h2{
+}
+.profile .profile-info #selectImage input[type=file]{
+    margin: 10px 0;
+    width:100%;
+}
+.search-bar{
+    margin: 10px auto;
+}
+.search-box {
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    width:90%;
+}
