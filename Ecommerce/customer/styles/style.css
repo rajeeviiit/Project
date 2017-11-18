@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+body{  background-color: skyblue;  }
+
+.main_wrapper{
+    width: 100%;
+    height: auto;
+    background: #c0c0c0;
+}
+.header_wrapper{
+    width: 100%;
+    height: 180px;
+    margin: auto;
+    background-color: blue;
+}
+#logo{
+    
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.menubar{
+    width:100%;
+    height:45px;
+    background: #999999;
+    color: white;
+
+}
+#menu{
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+    float: left;
+    margin-left: 120px;
+}
+#menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 60px;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+    
+}
+#form{
+    float: left;
+     padding-right:8px;
+     line-height: 50px; 
+     margin-right: 
+      margin-top: 20px; }
+
+.form input.srch{
+    width: 600px;
+    height: 42px;
+    border-radius: 3px;
+    border: 0px;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 16px;
+}
+.form input.sch{
+
+    width: 100px;
+    height: 42px;
+    border-radius: 3px;
+    margin-left: 2px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+#menu a:hover{
+    color: orange; font-weight: bolder;
+    
+}
+
+ #header2{
+    
+       width: 100%;
+       margin-left: 0px;
+      /* margin-top: 5px;*/
+
+    }
+    .div1{
+       float: left;
+       text-align: center;
+       background-color: #f3f3f3;
+   
+   }
+
+   .first{
+
+    background-color: white;
+
+
+   }
+   .carousel-control.right{
+     background: none !important;
+
+   }
+   .carousel-control.left{
+     background: none !important;
+
+   }
+   
+   .item1 {
+   overflow: hidden;
+
+}
+.item1 img {
+
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item1:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.content_wrapper{
+    width: 100%;
+    margin: auto;
+    background: white;
+}
+#content_area{
+    width: 75%;
+    float: left;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 18px;
+    text-align: center;
+    background: white;
+}
+
+.marqui{
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-top: 10px;
+ height: 40px;
+ text-align: center;
+ color: blue;
+
+
+}
+#shopping_cart{
+    
+    height:50px;
+    margin-top: 0px;
+    background: gray; 
+    margin-left: 10px;
+    color: white; 
+  
+    margin-right: 10px;
+
+ }
+
+#sidebar{
+    width: 250px;
+    background:black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#sidebar_title{
+    background: white;
+    color: black;
+    font-size: 22px;
+    font-family: Arial;
+    padding: 10px;
+    text-align: center;
+}
+#cats{
+    text-align: center;
+    text-underline-position: none;
+}
+#cats li{
+    list-style:none;
+    margin: 5px;
+
+}
+#cats a{
+    color: white;  font-size:18px;
+    text-align: center; padding: 8px; margin: 5px;
+}
+#cats a:hover{color: orange; font-weight: bold;}
+#products_box{
+    width:780px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+#single_product{
+    float: left;margin-left: 30px; padding: 10px;
+}
+#single_product img{border: 2px solid black;}
+
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background: gray;
+    clear: both;
+    margin-top: 20px;
+}
